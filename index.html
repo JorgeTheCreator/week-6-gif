@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Button Giphys</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google fonts script -->
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- jumbotron -->
+            <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-3">Hey take a look at these pictures!</h1>
+                        <p class="lead">I hope you love disney giphs!</p>
+                    </div>
+            </div> <!-- end of jumbotron -->
+            <div class="row">
+                <div class="col-lg-12">
+                      <div class="inputForm">
+                            <label for="addItem"><h3>Click to Get Giphys</h3><h4>Add your own buttons too</h4><p>click on pic to still/animate</p></label>
+                            <input type="text" id="addItemText">
+                            <button type="submit" class="buttonAdd btn btn-primary" id="addButton">Add Button</button>                         
+                        </div>
+                </div> <!-- end of col-12 --> 
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                      <section id="btnnArea" class="names"> </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                   <section id="giphyArea" class="names"> </section>
+                </div>
+            </div>
+               
+               
+<!-- jquery link -->
+<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+ <!-- javascript folder -->
+  <script src="javascript/gif.js"></script>    
+</body>                               
+</html>

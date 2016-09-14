@@ -1,0 +1,25 @@
+body{
+     color:white;
+     background-image: url("../images/bg-wall.jpg");
+}
+.jumbotron{
+	background-image: url("../images/bg-body.jpeg")
+
+}
+.buttonGiphy{
+	margin:10px;
+}
+#addItemText{
+	color:blue;
+}
+
+h1,.lead{
+	
+  font-family: 'Yellowtail', cursive;
+
+}
+
+img.giphyItem{
+	border-radius:50px;
+	border: 20px solid DarkBlue;
+	}
